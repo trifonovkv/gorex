@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=GOREX
+Icon=gorex
+StartupNotify=true
+Exec=gorex

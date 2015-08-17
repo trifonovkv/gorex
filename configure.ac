@@ -29,8 +29,12 @@ PKG_CHECK_MODULES(BASE, [
 
 # Checks for library functions.
 
-AC_CONFIG_FILES([Makefile
-	src/Makefile])
+AC_CONFIG_FILES([
+	Makefile
+	src/Makefile
+	data/Makefile
+	data/icons/Makefile
+])
 AC_OUTPUT
 
 dnl ==========================================================================
