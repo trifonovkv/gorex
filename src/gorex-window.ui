@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.8 -->
+  <template class="GorexWindow" parent="GtkApplicationWindow">
+    <property name="default-width">600</property>
+    <property name="default-height">400</property>
+        <child type="titlebar">
+          <object class="GtkHeaderBar" id="header">
+    				<property name="title" translatable="no">GOREX</property>
+            <property name="visible">True</property>
+            <property name="show-close-button">True</property>
+          </object>
+        </child>
+  </template>
+</interface>
