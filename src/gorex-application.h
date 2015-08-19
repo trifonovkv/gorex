@@ -13,8 +13,8 @@ typedef struct _GorexApplication       GorexApplication;
 typedef struct _GorexApplicationClass  GorexApplicationClass;
 
 
-GType           			gorex_application_get_type    (void);
-GorexApplication     *gorex_application_new   			(void);
+GType                 gorex_application_get_type    (void);
+GorexApplication     *gorex_application_new         (void);
 
 
 #endif /* __GOREX_APPLICATION_H */
