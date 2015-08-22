@@ -2,5 +2,6 @@
 <gresources>
   <gresource prefix="/org/gnome/gorex">
     <file preprocess="xml-stripblanks">gorex-window.ui</file>
+    <file preprocess="xml-stripblanks">gorex-app-menu.ui</file>
   </gresource>
 </gresources>

@@ -2,6 +2,7 @@ bin_PROGRAMS = gorex
 
 UI_FILES = 							\
 	gorex-window.ui					\
+	gorex-app-menu.ui				\
 	$(NULL)
 
 gorex-resources.c: gorex.gresource.xml $(UI_FILES)
